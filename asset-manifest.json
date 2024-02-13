@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Death-cafe/static/css/main.f663805c.css",
-    "main.js": "/Death-cafe/static/js/main.e6368837.js",
+    "main.js": "/Death-cafe/static/js/main.f4106c82.js",
     "static/js/592.d3a0d1a5.chunk.js": "/Death-cafe/static/js/592.d3a0d1a5.chunk.js",
     "static/media/logo1.png": "/Death-cafe/static/media/logo1.5ad20fd7d8c068712464.png",
     "index.html": "/Death-cafe/index.html",
     "main.f663805c.css.map": "/Death-cafe/static/css/main.f663805c.css.map",
-    "main.e6368837.js.map": "/Death-cafe/static/js/main.e6368837.js.map",
+    "main.f4106c82.js.map": "/Death-cafe/static/js/main.f4106c82.js.map",
     "592.d3a0d1a5.chunk.js.map": "/Death-cafe/static/js/592.d3a0d1a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f663805c.css",
-    "static/js/main.e6368837.js"
+    "static/js/main.f4106c82.js"
   ]
 }
