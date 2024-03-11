@@ -1,0 +1,65 @@
+.expertpanel {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.expert {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Kalnia', serif;
+}
+.experts {
+    width: 300px;
+    height: 510px;
+    margin: 15px 15px 15px 15px;
+}
+.expertimage1 {
+    background: url(https://res.cloudinary.com/dudu5p1pv/image/upload/v1706712602/gpboxsqtdgcjdlzagomc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    border-radius: 12px;
+}
+.expertname {
+    margin: 7px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.expertlead {
+    margin: 7px;
+    font-weight: thin;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.expertdesc {
+    margin: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.expertimage2 {
+    background: url(https://res.cloudinary.com/dudu5p1pv/image/upload/v1706712655/egrqbwqvgbbf9p4ilnl3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFEFB9;
+    height: 350px;
+    border-radius: 12px;
+}
+.expertimage3 {
+    background: url(https://res.cloudinary.com/dudu5p1pv/image/upload/v1706712702/cjmlpiqhfluj7w1znxa7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FCCDB4;
+    height: 350px;
+    border-radius: 12px;
+}
+

@@ -1,0 +1,67 @@
+.review {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Kalnia', serif;
+}
+.mainrev {
+    margin-top: 70px;
+    display: grid;
+    place-items: center;
+    display: flex;
+    gap: 20px;
+    margin-left: 55px;
+}
+.reviewcot {
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 370px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+    border-radius: 12px;
+}
+.fa {
+    font-family: var(--fa-style-family, "Font Awesome 6 Free");
+    font-weight: var(--fa-style, 900);
+}
+.revimg {
+    margin-top: 2px;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+img, svg {
+    vertical-align: middle;
+}
+.revname {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.revrole {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.reviewcontent {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-top: 20px;
+}
+

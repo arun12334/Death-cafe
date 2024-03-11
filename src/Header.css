@@ -1,0 +1,63 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #212529!important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Croissant One', cursive;
+  font-size: 17px;
+  z-index: 1000; /* Set a higher z-index to make sure it appears above other elements */
+}
+
+/* Add a padding to the body to prevent content from being hidden behind the fixed header */
+body {
+  padding-top: 70px; /* Adjust as needed based on the height of your header */
+}
+
+/* Rest of your styles */
+.logo {
+  /* Assuming you want to style the link */
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Adjust the width of the logo image */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 10px; /* Add some space between the logo and text */
+}
+
+.other-content {
+  display: flex;
+}
+
+.other-content a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  animation: floatAnimation 3s ease infinite; /* Adjust the duration and timing function as needed */
+}

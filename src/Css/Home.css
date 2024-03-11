@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Croissant+One&family=Fjalla+One&family=Inspiration&family=Kalnia:wght@500&family=Mooli&family=Pacifico&family=Poppins:ital,wght@0,400;0,500;1,400&family=Roboto&display=swap');
+.herocard1 {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+  
+}
+.text-container {
+    flex: 1; /* Take remaining space */
+    padding: 60px; /* Adjust spacing as needed */
+  }
+  .image-container {
+    margin-left: 20px; /* Adjust spacing between text and image */
+  }
+
+.hometxt {
+    margin-top: 70px;
+    margin-bottom: 10px ;
+    font-size: 50px ;
+    font-weight: bold ;
+    font-family: 'Kalnia', serif;
+}
+.herocard2{
+    margin-top: 30px;
+   
+    
+  }
+.but {
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #79240f;
+    color: white;
+    padding: 13px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.but:hover{
+    transform:scale(1.04);
+    transition:all 1.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.servicecard:hover{
+    transform:scale(1.06);
+    transition:all 1.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.imgrad {
+    height: 400px;
+    width: 450px;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.hero {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.slogan {
+    font-size: 16px;
+    font-weight: thin;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+* {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.service {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Kalnia', serif !important;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.servicecard {
+    background-color: #824030;
+    color: #F8E4BE;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 12px;
+    height: 200px;
+    width: 150px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.servicepanel {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.servimg {
+    margin: 15px;
+}
+
+ body {
+    margin:0 ;
+ }
+
+
+
+
+ 

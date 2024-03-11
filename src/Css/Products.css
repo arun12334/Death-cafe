@@ -1,0 +1,176 @@
+.salepannel {
+    text-align: center;
+    margin-top: 90px;
+}
+.sale {
+    margin-bottom: 10px;
+}
+.sale {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Kalnia', serif;
+}
+.slogan2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: thin;
+    font-family: 'Poppins', sans-serif;
+    word-break: break-all;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+* {
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+
+ 
+.cart-container{
+    background-color: white;
+    top: 0;
+    right: -100%;
+    position: fixed;
+    width: 300px;
+    min-height: 100%;
+    transition: 1s;
+  }
+  .cart-container.active{
+    right:0;
+  }
+  .productpanel {
+    width: 950px;
+    height: 750px;
+    background-color: white;
+    margin: 145px auto 0px auto;
+    margin-top: -1px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.product1 {
+    width: 270px;
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 15px 15px 0px 15px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.color1 {
+    background-color: #dcd0ca;
+    padding: 4px;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+.productimage {
+    margin-top: 20px;
+    width: 145px;
+    height: 145px;
+}
+
+
+img, svg {
+    vertical-align: middle;
+}
+
+.productname {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Kalnia', serif;
+}
+
+.cartflex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.buttonflex {
+    margin-top: -2px;
+}
+
+.cartbutton {
+    background-color: #B97043;
+    margin-top: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+.product2 {
+    margin-top: 10px;
+    width: 270px;
+    height: 320px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 0px 15px 0px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (max-width: 420px) {
+    .salepanel {
+        margin-top: 50px; /* Adjust margin for smaller screens */
+    }
+
+    .sale {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+
+    .slogan2 {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+    .cart-container {
+        width: 100%; /* Make cart container full width for smaller screens */
+    }
+
+    .productpanel {
+        width: 100%; /* Make product panel full width for smaller screens */
+        margin: 70px auto 0px auto; /* Adjust margin for smaller screens */
+    }
+
+    .product1,
+    .product2 {
+        width: 100%; /* Make product cards full width for smaller screens */
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .color1 {
+        margin: 4px; /* Adjust margin for smaller screens */
+    }
+
+    .productimage {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+        width: 120px; /* Adjust image size for smaller screens */
+        height: 120px; /* Adjust image size for smaller screens */
+    }
+
+    .productname {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .price {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .buttonflex {
+        margin-top: 0; /* Adjust margin for smaller screens */
+    }
+
+    .cartbutton {
+        margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+}
